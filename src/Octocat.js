@@ -12,9 +12,7 @@ class Octocat extends Component {
                     </p>
                     <p>the
                         <a href={this.props.git}>{this.props.name} </a>
-                        by <img className="author-icon"
-                            src="https://avatars1.githubusercontent.com/u/4226949?v=r" />
-                        <img className="author-icon" src={this.props.author}" />
+                        by<img className="author-icon" src={this.props.avatar} />
                     </p>
                 </div>
             </article>
