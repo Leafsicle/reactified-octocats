@@ -16,7 +16,6 @@ class Octocat extends Component {
                     </p>
                 </div>
             </article>
-
         )
     }
 }

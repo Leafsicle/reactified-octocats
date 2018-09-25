@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Octocat from './Octocat';
-
 class Gallery extends Component {
     render() {
         const octoData = [
@@ -34,10 +33,8 @@ class Gallery extends Component {
                 number: "14", git: "https://github.com/cameronmcefee", avatar: "https://avatars2.githubusercontent.com/u/1300064?s:400&v:4", name: "Octocat De Los Muertos", src: "https://octodex.github.com/images/octocat-de-los-muertos.jpg"
             },
         ]
-
-
         const catStats = octoData.map((cat) =>
-            <octoKitty number={cat.number} name={cat.name} git={cat.git} avatar={cat.avatar} src={cat.src} />
+            <Octocat number={cat.number} name={cat.name} git={cat.git} avatar={cat.avatar} src={cat.src} />
         )
         return (
             <main>
